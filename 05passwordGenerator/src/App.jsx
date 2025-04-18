@@ -28,6 +28,7 @@ function App() {
   useEffect(() => {
     passwordGenerator()
   }, [length, numberAllowed, charAllowed, passwordGenerator])
+  
   return (
     <>
       <div className="w-screen h-screen bg-gradient-to-br from-gray-900 to-black flex justify-center items-center p-4">
